@@ -1,0 +1,100 @@
+.title{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    .title__left{
+        width: 50%;
+        a{
+            padding: 10px 15px;
+            
+            display: inline-block;
+            border-radius: 10px;
+        }
+        .food{
+            background-color: antiquewhite;
+            color: #000;
+            margin-bottom: 40px;
+        }
+        .contact{
+            margin-bottom: 40px;
+            background-color: yellow;
+            color: #000;
+        }
+        p{
+            margin-bottom: 40px;
+        }
+        h2{
+            font-size: 32px;
+            margin-bottom: 30px;
+            span{
+                color: yellow;
+            }
+        }
+    }
+  
+    .title__right{
+        video{
+            width: 600px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+    }
+}
+.notification{
+    img{
+        color: #fff;
+    }
+}
+.menu__btn{
+    button{
+        margin-bottom: 50px;
+        border-radius: 10px;
+        border: none;
+        text-align: center;
+        margin-left: 45%;
+        padding: 10px 25px;
+        background-color: yellow;
+        color: #000;
+    }
+}
+.menu__cos{
+    margin-bottom: 50px;
+}
+.information{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    margin-bottom: 50px;
+    .info__right{
+        width: 60%;
+        padding: 0 20px;
+        h2{
+            font-size: 48px;
+            margin-bottom: 30px;
+            span{
+                color: yellow;
+            }
+        }
+        p{
+            margin-bottom: 30px;
+        }
+        a{
+            padding: 10px 15px;
+            background-color: yellow;
+            color: #000;
+            display: inline-block;
+            border: none;
+            border-radius: 10px;
+        }
+    }
+    .info__left{
+        
+        .position{
+            margin-top: -60px;
+            float: right;
+        }
+    }
+}

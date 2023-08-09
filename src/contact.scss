@@ -1,0 +1,37 @@
+.contact{
+    margin-bottom: 50px;
+    .contact__holder{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    h1{
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    color: #fff;
+    .contact__box{
+        display: flex;
+        font-size: 18px;
+        margin-bottom: 15px;
+        p{
+            width: 350px;
+        }
+        img{
+            margin-right: 20px;
+        }
+        
+    }
+    .internets{
+        img{
+            margin-right: 20px;
+        }
+    }
+    .contact__right{
+        iframe{
+            width: 500px;
+            height: 250px;
+        }
+    }
+}

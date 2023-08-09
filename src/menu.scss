@@ -1,0 +1,53 @@
+.menu{
+    color: #fff;
+    .menu__btn{
+        margin: 0 auto;
+        text-align: center;
+        h2{
+            margin-bottom: 15px;
+        }
+        form{
+          display: inline-block;
+        }
+        button{
+            padding: 8px 15px;
+            margin: 0 20px;
+            border: 1px solid yellow;
+            color: #fff;
+            background: #000;
+        }
+        button:hover{
+            background-color: yellow;
+            color: #000;
+        }
+        button:focus{
+            background-color: yellow;
+            color: #000;
+        }
+    }
+    .food__box{
+        margin-bottom: 10x;
+        margin-top: 40px;
+        padding: 10px;
+        background-color: rgb(35, 35, 35);
+        border-radius: 10px;
+        img{
+            width: 240px;
+        }
+        p{
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        width: 260px;
+        .food__price{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    .food__wrapp{
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}

@@ -1,0 +1,32 @@
+a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__right{
+    display: flex;
+    ul{ 
+        display: flex;
+        column-gap: 10px;
+        li{
+            list-style: none;
+            a{
+                margin-right: 20px;
+                color: #000;
+                color: #fff;
+                font-size: 18px;
+            }
+        }
+    }
+    select{
+        border: none;
+        outline: none;
+        background-color: #123;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+}
