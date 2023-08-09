@@ -23,8 +23,8 @@ export const Home = () => {
           </NavLink>
         </div>
         <div className="title__right">
-          <video>
-            <source src={Video} />
+          <video controls>
+            <source src={Video}  />
           </video>
         </div>
       </div>
