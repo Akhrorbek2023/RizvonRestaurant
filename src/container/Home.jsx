@@ -48,7 +48,7 @@ export const Home = () => {
             taklif qilamiz
           </p>
           <NavLink className="infoBtn">
-            Batafsil ma'lumot
+            Batafsil ma'lumot.
           </NavLink>
         </div>
       </div>
