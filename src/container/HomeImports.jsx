@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import Video from "../assets/video.mp4";
-
 import { Menu } from "../Menu";
 import { Contact } from "../Contact";
 import { Costumers } from "../components/Costumers";

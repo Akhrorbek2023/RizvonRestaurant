@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.scss";
-import {NavLink, Video, Bell, Menu, Contact, Costumers, HomePage, HomePage2} from "./HomeImports"
+import {NavLink, Video, Menu, Contact, Costumers, HomePage, HomePage2} from "./HomeImports"
 export const Home = () => {
   return (
     <div className="container">
