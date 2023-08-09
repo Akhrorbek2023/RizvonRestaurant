@@ -52,11 +52,6 @@ export const Home = () => {
           </NavLink>
         </div>
       </div>
-      <div className="notification">
-        <div>
-          <img src={Bell} alt="" />
-        </div>
-      </div>
       <div className="menu__btn">
         <Menu />
         <button>20 ta qo'shish</button>
